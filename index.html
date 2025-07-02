@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Deezer API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ابحث عن أغاني </h1>
+            <div class="subtitle">استمع إلى أفضل أغاني عبر TURBO MUSiSC</div>
+        </header>
+        
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="ابحث عن أغاني ..." value="Amr Diab">
+                <button id="search-btn">
+                    <i class="fas fa-search"></i>
+                    بحث
+                </button>
+            </div>
+        </section>
+        
+        <div class="results-header">
+            <h2 class="results-title">نتائج البحث</h2>
+            <div class="results-count">عرض <span id="result-count">25</span> نتيجة</div>
+        </div>
+        
+        <div class="results-container" id="results-container">
+            <!-- Results will be loaded here by JavaScript -->
+        </div>
+        
+        <div class="footer">
+            <p>تم تطوير هذه الواجهة باستخدام   تربو - أسطورة الموسيقى العربية</p>
+        </div>
+    </div>
+
+   <script src="js/main.js"></script>
+</body>
+</html>
